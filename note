@@ -1,8 +1,0 @@
-
-
-ALTER TABLE comic_origin_name
-MODIFY COLUMN comic_id VARCHAR(100);
-
-UPDATE comic_origin_name
-JOIN comics ON comic_origin_name.comic_id = comics.id
-SET comic_origin_name.comic_id = CAST(comics.comic_id AS CHAR);
