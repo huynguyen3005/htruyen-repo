@@ -1309,6 +1309,10 @@ a.current {
   color: var(--color-primary);
 }
 
+.link-active {
+  color: var(--color-primary);
+}
+
 .mainmenu>li>a.active::before {
   width: 100%;
   opacity: 1;
