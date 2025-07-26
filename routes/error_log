@@ -1,0 +1,8 @@
+[26-Jul-2025 05:19:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/htrubusl/htruyen.net/routes/web.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/htrubusl/htruyen.net/routes/web.php on line 27
+[26-Jul-2025 07:19:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/htrubusl/htruyen.net/routes/auth.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/htrubusl/htruyen.net/routes/auth.php on line 14

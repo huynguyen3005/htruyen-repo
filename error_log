@@ -1,0 +1,5 @@
+[26-Jul-2025 05:41:01 UTC] PHP Warning:  require(/home/htrubusl/htruyen.net/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/htrubusl/htruyen.net/public/index.php on line 34
+[26-Jul-2025 05:41:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/htrubusl/htruyen.net/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/htrubusl/htruyen.net/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/htrubusl/htruyen.net/public/index.php on line 34
