@@ -1162,12 +1162,11 @@
     <!-- Site Stylesheet -->
     @include('client.layouts.css')
     @yield('schema')
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878376305810359"
         crossorigin="anonymous">
-        </script>
+    </script>
 
-    {{-- ads --}}
-    <script type='text/javascript' src='//pl27233458.profitableratecpm.com/59/2b/23/592b232148d1172d93bc1afc85b25195.js'></script>
 </head>
 
 <body class="sticky-header">
@@ -1195,6 +1194,12 @@
         <!--=        Header Area Start       	=-->
 
         @include('client.layouts.header')
+
+        <p style="text-align: center; margin-top: 5px;">
+            ❤️ Nếu bạn thấy trang web hữu ích, hãy click <a class="link-active"  href="https://shorten.asia/7dJX6MVd"
+                target="_blank" rel="noopener noreferrer"><strong>Shopee.vn </strong></a> để ủng hộ chúng mình. Mỗi lượt click giúp
+            duy trì website hoạt động!
+        </p>
 
         <!--=        Breadcrumb Area Start       =-->
         @include('client.layouts.breadcrumb')

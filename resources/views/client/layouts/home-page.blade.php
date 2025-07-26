@@ -57,6 +57,12 @@
         <!--=        Header Area Start       	=-->
         @include('client.layouts.header');
 
+        <p style="text-align: center; margin-top: 5px;">
+            ❤️ Nếu bạn thấy trang web hữu ích, hãy click <a class="link-active"  href="https://shorten.asia/7dJX6MVd"
+                target="_blank" rel="noopener noreferrer"><strong>Shopee.vn </strong></a> để ủng hộ chúng mình. Mỗi lượt click giúp
+            duy trì website hoạt động!
+        </p>
+
         <!--=        Main Content Start          =-->
         @yield('content')
 
