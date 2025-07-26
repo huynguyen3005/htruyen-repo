@@ -77,3 +77,4 @@ Password: @Huy30052001
 
 ssh -p 21098 -i cpanel-key.pem htrubusl@209.74.67.50
 
+mysql -u htrubusl_huynguyen -p'@Huy30052001' htrubusl_htruyen-db < /home/htrubusl/reading_comic.sql
