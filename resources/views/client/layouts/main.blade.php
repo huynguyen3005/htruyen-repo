@@ -1165,6 +1165,9 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878376305810359"
         crossorigin="anonymous">
         </script>
+
+    {{-- ads --}}
+    <script type='text/javascript' src='//pl27233458.profitableratecpm.com/59/2b/23/592b232148d1172d93bc1afc85b25195.js'></script>
 </head>
 
 <body class="sticky-header">
