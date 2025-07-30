@@ -29,8 +29,9 @@
                 </div>
             </div>
 
-            <script async="async" data-cfasync="false" src="//pl27246233.profitableratecpm.com/47a4116ca99c6421b3cef0d0c7bc8818/invoke.js"></script>
-            <div id="container-47a4116ca99c6421b3cef0d0c7bc8818"></div>
+            {{-- native ads banner --}}
+            {{-- <script async="async" data-cfasync="false" src="//pl27246233.profitableratecpm.com/47a4116ca99c6421b3cef0d0c7bc8818/invoke.js"></script>
+            <div id="container-47a4116ca99c6421b3cef0d0c7bc8818"></div> --}}
 
             {{-- content area --}}
             <div class="heading style-1">
