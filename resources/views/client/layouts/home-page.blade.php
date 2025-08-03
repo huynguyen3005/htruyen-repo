@@ -30,6 +30,9 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878376305810359"
         crossorigin="anonymous">
     </script>
+    
+    {{-- clickadu --}}
+    <meta name="clckd" content="0475c08e9813c5d821ef1964efb01f89" />
 </head>
 
 <body class="sticky-header">

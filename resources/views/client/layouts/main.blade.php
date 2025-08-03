@@ -1167,7 +1167,8 @@
         crossorigin="anonymous">
     </script>
 
-
+    {{-- clickadu --}}
+    <meta name="clckd" content="0475c08e9813c5d821ef1964efb01f89" />
 </head>
 
 <body class="sticky-header">
