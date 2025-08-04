@@ -28,7 +28,7 @@ class ResetViewPerWeekJob implements ShouldQueue
     public function handle(): void
     {
         ComicView::update([
-            'views_daily' => DB::raw('views_weekly / 4')
+            'views_weekly' => DB::raw('views_weekly / 4')
         ]);
     }
 }

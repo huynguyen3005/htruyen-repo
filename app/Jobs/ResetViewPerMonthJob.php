@@ -28,7 +28,7 @@ class ResetViewPerMonthJob implements ShouldQueue
     public function handle(): void
     {
         ComicView::update([
-            'views_daily' => DB::raw('views_monthly / 4')
+            'views_monthly' => DB::raw('views_monthly / 4')
         ]);
     }
 }
