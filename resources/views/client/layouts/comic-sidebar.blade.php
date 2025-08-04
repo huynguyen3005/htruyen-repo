@@ -11,7 +11,7 @@
                         <div class="anime-blog">
                             <p>{{ $comic->name }}</p>
                             <p class="text-box">
-                                {{ $comic->latestChapter ? 'Chapter ' . $comic->latestChapter->chapter_name : '' }}
+                                {{ $comic->latestChapter ? 'Chapter ' . floatval($comic->latestChapter->chapter_name ): '' }}
                             </p>
                         </div>
                     </div>

@@ -40,6 +40,7 @@ class ComicController extends Controller
             $comic = $comic->toArray();
             $description = $comic['description'];
         }
+
         return view('client.pages.comic-detail', compact('comic', 'description', 'dataAPI'));
     }
 

@@ -35,7 +35,7 @@
                             <div class="trailer-content">
                                 <h1>{{ $comic['name'] ?? '' }}</h1>
                                 <h3 class="light-text">Chapter
-                                    {{ $comic['chapters'] ? end($comic['chapters'])['chapter_name'] : '' }}
+                                    {{ $comic['chapters'] ? floatval(end($comic['chapters'])['chapter_name']) : '' }}
                                 </h3>
                                 <h2>Tóm tắt cốt truyện</h2>
                                 <p>{!! $comic ? $comic['description'] : 'Đang cập nhật' !!}</p>
@@ -63,6 +63,14 @@
                             @foreach ($comic['categories'] as $index => $category)
                                 <a class="fa-sm" href=""><b>{{ $category['name'] }}</b></a>
                                 @if ($index < count($comic['categories']) - 1)
+                                    ,
+                                @endif
+                            @endforeach
+                        </p>
+                        <p><span>Origin Name:</span>
+                            @foreach ($comic['origin_names'] as $index => $origin_name)
+                                <a class="fa-sm" href=""><b>{{ $origin_name['name'] }}</b></a>
+                                @if ($index < count($comic['origin_names']) - 1)
                                     ,
                                 @endif
                             @endforeach
