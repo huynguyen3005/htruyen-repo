@@ -70,10 +70,10 @@
         @yield('content')
 
         <!--=           Footer Area Start       =-->
-        {!! Cache::remember('cached_footer_html', 3600 * 6, function () {
+        {{-- {!! Cache::remember('cached_footer_html', 3600 * 6, function () {
             return view('client.layouts.footer')->render();
-        }) !!}
-
+        }) !!} --}}
+        @include('client.layouts.footer');
     </div>
     <!-- Jquery Js -->
     @include('client.layouts.js')

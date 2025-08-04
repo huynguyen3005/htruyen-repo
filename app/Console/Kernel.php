@@ -21,7 +21,7 @@ class Kernel extends ConsoleKernel
         $schedule->job(new FectchComicsDaily)->hourly();
         $schedule->job(new UpdateComicDescriptionJob)->dailyAt('09:00');
         $schedule->job(new ResetViewPerDayJob)->dailyAt('02:00');
-        $schedule->job(new ResetViewPerWeekJob)->mondays();
+        $schedule->job(new ResetViewPerWeekJob)->weekly();
         $schedule->job(new ResetViewPerMonthJob)->monthly();
     }
 

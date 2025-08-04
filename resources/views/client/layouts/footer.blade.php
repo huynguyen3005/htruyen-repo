@@ -38,6 +38,13 @@
                         </form>
                         <p class="text">Nhận góp ý về nội dung trang web qua huytdhd@gmai.com</p>
                         <p class="text">Chúng tôi luôn sẵn sàng lắng nghe mọi ý kiến đóng góp của độc giả.</p>
+                        <div>
+                            @foreach (\DB::table('categories')->get() as $category)
+                                <a class="anime-btn2 light me-3 mb-0" href="{{ route('comic.search', ['genre' => [$category->category_id]]) }}" >
+                                    {{ Str::limit($category->name, 30) }}
+                                </a>
+                            @endforeach
+                        </div>
                     </div>
                 </div>
             </div>

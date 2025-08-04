@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Models\ComicView;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -26,7 +27,7 @@ class ResetViewPerMonthJob implements ShouldQueue
      */
     public function handle(): void
     {
-        DB::table('comic_views')->update([
+        ComicView::update([
             'views_daily' => DB::raw('views_monthly / 4')
         ]);
     }
