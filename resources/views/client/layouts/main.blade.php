@@ -1169,6 +1169,7 @@
 
     {{-- clickadu --}}
     <meta name="clckd" content="0475c08e9813c5d821ef1964efb01f89" />
+    
 </head>
 
 <body class="sticky-header">
@@ -1181,6 +1182,7 @@
 
         gtag('config', 'G-KPKR0RHDC5');
     </script>
+    <div data-cl-spot="2079308"></div>
 
     <!-- Preloader -->
     @include('client.layouts.preloader')
